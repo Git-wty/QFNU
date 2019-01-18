@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+	background: #f3f5f6;;
+}
+
+.all {
+	position: relative;
+}
+
+.title {
+	height: 37px;
+	background-color: #2d3447;
+	line-height: 37px;
+	text-align: center;
+	color: white;
+}
+
+.paper {
+	width: 600px;
+	margin: 0 auto;
+	color: orangered;
+	font: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.paper input {
+	margin: 10px;
+	width: 160px;
+	height: 25px;
+	border: 1px solid gold;
+}
+
+.question_type {
+	margin: 120px 0 120px 20px;
+	position: fixed;
+	top: 0;
+	width: 150px;
+	height: 700px;
+	border: solid 1px #dde5ed;;
+}
+
+.question_type button {
+	width: 120px;
+	height: 32px;
+	border-radius: 2px;
+	background-color: #2672ff;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+	margin: 10px 10px 20px 10px;
+}
+
+.submit {
+	position: absolute;
+	left: 50%;
+	bottom: -150px;
+}
+
+.submit button {
+	width: 112px;
+	height: 32px;
+	border-radius: 2px;
+	background-color: #2672ff;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+}
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+	font: "微软雅黑";
+	font-size: 17px;
+}
+
+.hint {
+	height: 300px;
+	border: dashed 1px #2672ff;
+	text-align: center;
+	line-height: 300px;
+	font-size: 16px;
+}
+
+.main input {
+	width: 300px;
+	height: 25px;
+	margin: 10px;
+	color: gold;
+	border: 1px solid silver;
+}
+
+.main input[type="radio"] {
+	vertical-align: middle;
+	width: 16px;
+}
+
+.main input[type="checkbox"] {
+	vertical-align: middle;
+	width: 16px;
+}
+
+.main form {
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}

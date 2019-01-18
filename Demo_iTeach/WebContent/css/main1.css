@@ -1,0 +1,514 @@
+/*全局样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #EEEEEE;
+	font-family: "微软雅黑";
+}
+
+ul {
+	list-style: none;
+}
+
+/*头部样式*/
+header {
+	min-width: 1276px;
+	height: 132px;
+	font-size: 15px;
+	background-color: white;
+}
+
+.header-user>a {
+	text-decoration: none;
+	color: #111;
+}
+
+header>a:hover {
+	text-decoration: none;
+	color: #66cccc;
+}
+
+header>li {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.header-line1 {
+	min-width: 1276px;
+	height: 72px;
+	margin: 0 auto;
+	/*background-color: #009F95;*/
+}
+
+header>div>img {
+	float: left;
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-top: 15px;
+}
+
+.header-user {
+	float: right;
+	line-height: 72px;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+
+.select {
+	line-height: 80px;
+	float: right;
+	margin-right: 60px;
+}
+
+/*轮播图区域*/
+.banner {
+	width: 1276px;
+	height: 380px;
+	margin: 0 auto;
+}
+
+/*轮播图左边列表*/
+.banner-list {
+	width: 200px;
+	height: 380px;
+	background-color: rgba(0, 0, 0, 0.8);
+	float: left;
+}
+
+.banner-list>ul {
+	margin-top: 10px;
+}
+
+.banner-list>ul>li>a {
+	text-decoration: none;
+	color: white;
+}
+
+.banner-list>ul>li {
+	line-height: 22px;
+	display: inline-block;
+	width: 100%;
+	height: 42px;
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+
+.banner-img {
+	width: 860px;
+	height: 380px;
+	float: left;
+}
+
+.banner-login {
+	width: 200px;
+	height: 280px;
+	/*line-height: 380px;*/
+	float: right;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-top: 60px;
+}
+
+.denglu {
+	width: 200px;
+	height: 280px;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: auto;
+}
+
+.span1 {
+	line-height: 22px;
+	display: inline-block;
+	width: 156px;
+	height: 44px;
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 22px;
+	margin-left: 19px;
+}
+
+.denglu-img {
+	margin-top: 20px;
+	margin-left: 55px;
+	width: 83px;
+	height: 83px;
+	border-radius: 42px;
+}
+
+.denglu>button {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 160px;
+	height: 36px;
+	background-color: green;
+	border: 0px;
+	font-size: 16px;
+	color: white;
+	font-family: "微软雅黑";
+}
+
+.span2 {
+	width: 144px;
+	height: 16px;
+	margin-top: 30px;
+	margin-left: 53px;
+	font-size: 12px;
+	color: #666666;
+}
+
+/*直播部分*/
+.ketangzhibo-text {
+	margin: 20px auto;
+	width: 300px;
+}
+
+.icon-new-l {
+	background-position: center -72px;
+	margin-right: 24px;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 56px;
+	height: 36px;
+	background: url(../img/icon.png);
+	background-size: 100%;
+}
+
+.icon-new-r {
+	background-position: center -108px;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 56px;
+	height: 36px;
+	background: url(../img/icon.png);
+	background-size: 100%;
+}
+
+.ketangzhibo-text>em {
+	font-family: "微软雅黑";
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.ketangzhibo {
+	width: 1270px;
+	height: 270px;
+	margin: 0px auto;
+}
+
+.ketangzhibo-1 {
+	width: 244px;
+	height: 270px;
+	margin-right: 10px;
+	padding: 0px;
+	float: left;
+	background-color: white;
+}
+
+.ketangzhibo-text-1 {
+	margin-top: 10px;
+	color: black;
+	font-size: 18px;
+}
+
+.ketangzhibo-text-2 {
+	line-height: 18px;
+	display: inline-block;
+	width: 100%;
+	font-family: 微软雅黑, "Microsoft YaHei";
+	font-size: 11px;
+	color: green;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.ketangzhibo-text-3 {
+	line-height: 18px;
+	display: inline-block;
+	width: 100%;
+	font-family: 微软雅黑, "Microsoft YaHei";
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+	text-align: left;
+	vertical-align: middle;
+}
+
+.ketangzhibo-text-4 {
+	line-height: 18px;
+	display: inline-block;
+	width: 100%;
+	font-family: 微软雅黑, "Microsoft YaHei";
+	font-size: 13px;
+	color: rgb(153, 153, 153);
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+/*话题讨论部分*/
+.huatitaolun {
+	height: 350px;
+	min-width: 1276px;
+	background-color: #617fa5;
+	margin-top: 20px;
+	position: relative;
+}
+
+.huantitaolun-text-and-picture {
+	min-width: 1276px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+/*话题讨论左边文本部分*/
+.huantitaolun-text {
+	margin-left: 30px;
+	margin-top: 50px;
+	height: 300px;
+	width: 380px;
+	float: left;
+}
+
+/*话题讨论部分的艺术字图片*/
+.huatitaolun-text-1>img {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 380px;
+	height: 69px;
+}
+
+/*文字"一起学习一起成长"*/
+.huatitaolun-text-2 {
+	width: 380px;
+	height: 29px;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 16px;
+	color: black;
+	line-height: 29px
+}
+
+/*文字"一起学习一起成长"的span*/
+.huatitaolun-text-2>span {
+	line-height: 29px;
+	display: inline-block;
+	width: 100%;
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*加入讨论的按钮*/
+.huatitaolun-button>button {
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size: 20px;
+	color: white;
+	border: 0px;
+	width: 200px;
+	height: 40px;
+	background-color: green;
+}
+
+/*已有多少人在此讨论文字部分*/
+.huatitaolun-text-3 {
+	margin-top: 30px;
+	margin-left: 80px;
+	width: 300px;
+	height: 17px;
+}
+
+/*已有多少人在此讨论文字部分的span*/
+.huatitaolun-text-3>span {
+	color: white;
+	font-size: 16px;
+}
+
+/*话题讨论中的轮播图部分*/
+
+/*话题讨论中的轮播图部分中的两个话题框*/
+.div-1 {
+	background-color: #617FA5;
+	width: 750px;
+	height: 240px;
+	margin-right: 30px;
+	float: right;
+}
+
+/*第一个话题框*/
+.div-1-1 {
+	margin-top: 65px;
+	margin-right: 50px;
+	width: 350px;
+	height: 220px;
+	background-color: whitesmoke;
+	float: left;
+	position: relative;
+}
+
+/*第二个话题框*/
+.div-1-2 {
+	margin-top: 65px;
+	width: 350px;
+	height: 220px;
+	background-color: whitesmoke;
+	float: left;
+	position: relative;
+}
+
+/*第一个话题框中的图片*/
+.div-1-1-img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 25px;
+}
+
+.div-1-1-img>img {
+	height: 30px;
+	width: 30px;
+	border-radius: 25px;
+}
+
+/*第二个话题框中的图片*/
+.div-1-2-img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 25px;
+}
+
+.div-1-2-img>img {
+	height: 30px;
+	width: 30px;
+	border-radius: 25px;
+}
+
+/*第一个话题框中的文本”鲁大营“*/
+.div-1-1-text1 {
+	font-size: 13px;
+	margin-left: 45px;
+	margin-top: 15px;
+	float: left;
+}
+
+/*第一个话题框中的文本”老师“*/
+.div-1-1-text2 {
+	width: 30px;
+	height: 18px;
+	font-size: 13px;
+	margin-left: 15px;
+	margin-top: 16px;
+	background-color: orange;
+	float: left;
+}
+
+/*第一个话题框中的文本”来自**学院“*/
+.div-1-1-text3 {
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 13px;
+	float: right;
+}
+
+/*第一个话题框中的文本    所讨论的问题标题*/
+.div-1-1-text4 {
+	clear: both;
+	margin-top: 80px;
+	margin-left: 15px;
+}
+
+/*第一个话题框中的文本    所讨论的问题标题*/
+.div-1-1-text4>h5 {
+	font-size: 23px;
+}
+
+/*第一个话题框中的文本   已有多少人参与讨论*/
+.div-1-1-text5>p {
+	font-size: 13px;
+	margin-top: 40px;
+	margin-left: 120px;
+}
+
+/*底部信息栏部分*/
+footer {
+	width: 100%;
+	height: 209px;
+	background-color: #333;
+	color: #ccc;
+}
+
+.footer-content {
+	width: 1260px;
+	height: 184px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.footer-content>div {
+	width: 120px;
+	float: right;
+	margin-right: 30px;
+}
+
+footer>section>div>span {
+	text-align: center;
+	font-size: large;
+	display: block;
+}
+
+footer>section>div>ul>li {
+	text-align: center;
+	color: #999;
+}
+/*移动端*/
+body {
+	background-color: whitesmoke;
+	font-family: "微软雅黑";
+}
+
+.form-select {
+	width: 201px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.ketangzhibo-app>p {
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #111111;
+}
+
+.ketangzhiboapp-1 {
+	margin-top: 10px;
+}
+
+.blank {
+	clear: both;
+	overflow: hidden;
+	display: block;
+	overflow: hidden;
+}
+
+@media only screen and (min-width:768px) and (width:768px) { {
+	.blank {
+		display: none;
+	}
+}
