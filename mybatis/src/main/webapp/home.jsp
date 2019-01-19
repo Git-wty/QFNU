@@ -9,6 +9,8 @@
 <body>
 <%
 	response.sendRedirect("index");
+
+//这里更改了一个注释
 %>
 </body>
 </html>
