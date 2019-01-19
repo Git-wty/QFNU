@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         id="WebApp_ID" version="3.1" metadata-complete="false">
+    <display-name>mybatispro</display-name>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>UsersFindById</display-name>
+    	<servlet-name>UsersFindById</servlet-name>
+    	<servlet-class>com.demo.service.UsersFindById</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>UsersAddServlet</display-name>
+    	<servlet-name>UsersAddServlet</servlet-name>
+    	<servlet-class>com.demo.service.UsersAddServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>UsersUpdateServlet</display-name>
+    	<servlet-name>UsersUpdateServlet</servlet-name>
+    	<servlet-class>com.demo.service.UsersUpdateServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>UsersDelServlet</display-name>
+    	<servlet-name>UsersDelServlet</servlet-name>
+    	<servlet-class>com.demo.service.UsersDelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>UsersFindById</servlet-name>
+    	<url-pattern>/UsersFindById</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UsersAddServlet</servlet-name>
+    	<url-pattern>/UsersAddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UsersUpdateServlet</servlet-name>
+    	<url-pattern>/UsersUpdateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UsersDelServlet</servlet-name>
+    	<url-pattern>/UsersDelServlet</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>home.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
